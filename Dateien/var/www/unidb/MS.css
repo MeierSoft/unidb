@@ -1,0 +1,254 @@
+* {
+	box-sizing: border-box;
+}
+
+.Text_Element{
+	font-family: arial, helvetica, sans-serif;
+	border-width: 1px;
+	font-size: 12px;
+	height: 18px;
+}
+
+.Text_Element_fett{
+	font-family: arial, helvetica, sans-serif;
+	border-width: 1px;
+	font-size: 12px;
+	font-weight: bold;
+	height: 18px;
+}
+
+.Blog_Thema {
+	background-color: #FFFFEF;
+	font-family: arial, helvetica, sans-serif;
+	font-weight: 600;
+	box-shadow: 10px 10px 40px grey;
+}
+
+.Blog_Thema_Element {
+	position: relative;
+	left: 10px;
+	font-size: 14px;
+	color: blue;
+	font-weight: normal;
+	width: 160px;
+	cursor: pointer;
+}
+
+.Blog_Thema_Element_Artikel {
+	position: relative;
+	left: 10px;
+	width: 140px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.Artikelbox {
+	width: calc(100vw - 250px);
+	min-height: calc(100vh - 120px);
+	position: relative;
+	top: 15px;
+	left: 20px;
+	background-color: #FFFFEF;
+	box-shadow: 10px 10px 40px grey;
+	padding: 20px 20px 20px 20px;
+}
+
+a:hover {
+	color: white;
+}
+
+.Blog_Thema_Element > p:hover {
+	color: white;
+	background: #7345FF;
+	width: fit-content;
+}
+
+.Blog_Thema_Element > span:hover {
+	color: white;
+	background: #7345FF;
+	width: fit-content;
+}
+
+.markieren > a {
+	color: #000;
+	font-weight: 700;
+}
+
+.markieren > a:hover {
+	color: #7345FF;
+}
+
+.Text_ganz_gross {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	color: #000000;
+}
+
+.Text_ganz_gross_fett {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.Text_gross {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #000000;
+}
+
+.Text_gross_fett {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.Text_einfach {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+}
+
+.Text_einfach_klein {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+}
+
+.Text_mittel_fett {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.Text_fett {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.Tabelle_Zelle {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #7E63E9;
+}
+
+.Tabelle_Ueberschrift {
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.table {
+	top: 10px;
+	left: 10px;
+	background-color: #E5E5E5;
+}
+
+.Tabellenzeile {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	background-color: #E5E5E5;
+}
+
+.senkrecht {
+	transform-origin: 0 0;
+	rotate: 270deg;
+}
+
+.Inhalt {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 11px;
+}
+
+.Grafik_Mitte {
+	max-height: 523px;
+	max-width: 455px;
+	width: 50vw;
+	height: auto;
+}
+
+.Textbox {
+	padding: 20px;
+	background-color: #FFFFEF;
+	box-shadow: 10px 10px 40px grey;
+	min-height: 200px;
+}
+
+.Textbox_oben {
+	max-height: 523px;
+	max-width: 455px;
+	width: 30vw;
+	max-height: 400px;
+	padding: 15px;
+	background-color: #FFFFEF;
+	box-shadow: 10px 10px 40px grey;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media screen and (max-width: 140em) { 
+	.Textbox_oben {
+		font-size: 100%;
+	}
+	.Textbox {
+		font-size: 100%;
+	}
+}
+
+@media screen and (max-width: 100em) { 
+	.Textbox_oben {
+		overflow: auto;
+	}
+	.Textbox {
+		overflow: auto;
+	}
+}
+	
+@media screen and (max-width: 40em) { 
+	.Grafik_Mitte {
+		width: 95vw;
+		height: auto;
+	}
+	.Textbox {
+		width: 95vw;
+		height: auto;
+	}
+	.Textbox_oben {
+		width: 95vw;
+		height: auto;
+	}
+}

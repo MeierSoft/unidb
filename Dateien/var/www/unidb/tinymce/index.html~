@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>tinymce Editor</title>
+<script src="./tinymce.min.js"></script>
+<script src="./langs/de.js"></script>
+</head>
+<body>
+<textarea id="default">Hello, World!</textarea>
+
+
+<script language="javascript">
+tinymce.init({
+  selector: 'textarea',
+  language: 'de',
+	plugins: 'preview importcss searchreplace autolink autosave save directionality code visualblocks visualchars fullscreen image link codesample table charmap nonbreaking anchor insertdatetime advlist lists help charmap quickbars emoticons',
+  menubar: 'file edit view insert format tools table help',
+  toolbar: 'undo redo | bold italic underline strikethrough | fontfamily fontsize blocks | alignleft aligncenter alignright alignjustify | outdent indent |  numlist bullist | forecolor backcolor removeformat | pagebreak | charmap emoticons | fullscreen  preview print | insertfile image media template link anchor codesample',
+  toolbar_sticky: true,
+  quickbars_selection_toolbar: 'bold italic | quicklink h2 h3 blockquote quickimage quicktable',
+  toolbar_mode: 'sliding',
+  contextmenu: 'link image table'
+});
+
+</script>
+</body>
+</html>

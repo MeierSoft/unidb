@@ -1,0 +1,14 @@
+CREATE DATABASE unidb;
+CREATE DATABASE DH;
+CREATE USER 'mariadb_admin'@'localhost' identified by 'unidb';
+GRANT ALL privileges on *.* to 'mariadb_admin'@'localhost' with grant option;
+CREATE USER 'DH_readonly'@'localhost';
+GRANT SELECT ON `DH%`.* TO 'DH_readonly'@'localhost'; 
+CREATE USER 'unidb'@'localhost' identified by 'nurunidb';
+GRANT SELECT, INSERT, UPDATE, DELETE ON `unidb`.* TO 'unidb'@'localhost';
+CREATE USER 'DH_write'@'localhost' identified by 'nurDH';
+GRANT SELECT, INSERT, UPDATE, DELETE ON `DH`.* TO 'DH_write'@'localhost';
+CREATE USER 'mustermann'@'localhost' identified by 'e1e5c81d8df51c6dfe185d97e3a2cf93';
+GRANT SELECT, INSERT, UPDATE, DELETE ON `unidb`.* TO 'mustermann'@'localhost';
+GRANT SELECT ON `DH`.* TO 'mustermann'@'localhost';
+FLUSH PRIVILEGES;

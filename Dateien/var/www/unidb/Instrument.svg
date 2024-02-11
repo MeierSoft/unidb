@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200" id="svg" width="150px" height="150px">
+<a xlink:href="" xlink:show="new" xlink:title="" id="Link">
+   <circle
+      style="fill:#000000"
+   	cx="100"
+	   cy="100"
+   	r="100" />
+   <circle
+      style="fill:#ffffff"
+      id="Mittelpunkt"
+      cx="100"
+      cy="100"
+      r="12" />
+   <path
+      style="fill:#ff00ff;fill-rule:evenodd;stroke:#ff00ff;stroke-width:1.00005281px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="m 99.592853,100.77963 -2.2944,-3.2768 -55.0496,43.4288 59.638397,-36.8752 z"
+      id="Zeiger"
+      transform="rotate(0 100 100)" />
+	<rect
+      y="-80.31797"
+      x="-140.04504"
+      height="20"
+      width="3"
+      style="fill:#ffffff;stroke:#ffffff"
+      transform="matrix(-0.60181503,-0.79863551,0.79863551,-0.60181503,0,0)" />
+   <rect
+      y="21.22176"
+      x="-72.837379"
+      height="20"
+      width="3"
+      style="fill:#ffffff;stroke:#ffffff"
+      transform="matrix(0.2419219,-0.97029572,0.97029572,0.2419219,0,0)" />
+   <rect
+      y="33.716515"
+      x="46.042286"
+      height="20"
+      width="3"
+      style="fill:#ffffff;stroke:#ffffff"
+      transform="matrix(0.89879405,-0.43837114,0.43837114,0.89879405,0,0)" />
+   <rect
+      style="fill:#ffffff;stroke:#ffffff"
+      width="3"
+      height="20"
+      x="132.89259"
+      y="-51.631058"
+      transform="matrix(0.90630778,0.42261828,-0.42261828,0.90630778,0,0)" />
+   <rect
+      style="fill:#ffffff;stroke:#ffffff"
+      width="3"
+      height="20"
+      x="123.68989"
+      y="-168.56242"
+      transform="matrix(0.27563736,0.96126169,-0.96126169,0.27563736,0,0)" />
+   <rect
+      style="fill:#ffffff;stroke:#ffffff"
+      width="3"
+      height="20"
+      x="24.557554"
+      y="-239.27284"
+      transform="matrix(-0.57357643,0.81915205,-0.81915205,-0.57357643,0,0)" />
+   <text style="font-size:17.5px;font-family:'DejaVu Sans';text-align:start;text-anchor:start;fill:#ffffff">
+		<tspan y="148.69292" x="37.543137" id="Beschriftung0">0</tspan>
+	</text>
+   <text style="font-size:17.5px;font-family:'DejaVu Sans';text-align:start;text-anchor:start;fill:#ffffff">
+		<tspan y="87.578697" x="26.309626" id="Beschriftung2">2</tspan>
+	</text>
+   <text style="font-size:17.5px;font-family:'DejaVu Sans';text-align:center;text-anchor:middle;fill:#ffffff">
+		<tspan y="47.576145" x="69.180191" id="Beschriftung4">4</tspan>
+	</text>
+   <text style="font-size:17.5px;font-family:'DejaVu Sans';text-align:center;text-anchor:middle;fill:#ffffff">
+		<tspan y="46" x="130.81981" id="Beschriftung6">6</tspan>
+	</text>
+   <text style="font-size:17.5px;font-family:'DejaVu Sans';text-align:end;text-anchor:end;fill:#ffffff">
+		<tspan y="89.114227" x="174.15485" id="Beschriftung8">8</tspan>
+	</text>
+   <text style="font-size:17.5px;font-family:'DejaVu Sans';text-align:end;text-anchor:end;fill:#ffffff">
+		<tspan y="148.16754" x="160.41626" id="Beschriftung10">10</tspan>
+	</text>
+	<g
+		id="feine_Teilung"
+		style="display:inline">
+      <text style="font-size:12.5px;font-family:'DejaVu Sans';text-align:start;text-anchor:start;fill:#ffffff">
+         <tspan id="Beschriftung1" x="15" y="119.41881">1</tspan>
+      </text>
+      <text style="font-size:12.5px;font-family:'DejaVu Sans';text-align:start;text-anchor:start;fill:#ffffff">
+	      <tspan id="Beschriftung3" x="28" y="57">3</tspan>
+      </text>
+      <text style="font-size:12.5px;font-family:'DejaVu Sans';text-align:center;text-anchor:middle;fill:#ffffff">
+      	<tspan id="Beschriftung5" x="100" y="23">5</tspan>
+      </text>
+      <text style="font-size:12.5px;font-family:'DejaVu Sans';text-align:end;text-anchor:end;fill:#ffffff">
+      	<tspan id="Beschriftung7" x="175" y="57">7</tspan>
+      </text>
+      <text style="font-size:12.5px;font-family:'DejaVu Sans';text-align:end;text-anchor:end;fill:#ffffff">
+      	<tspan id="Beschriftung9" x="185" y="118">9</tspan>
+      </text>
+
+      <rect
+         transform="matrix(-0.19080899,-0.98162718,0.98162718,-0.19080899,0,0)"
+         style="fill:#ffffff;stroke:#ffffff"
+         width="1"
+         height="10"
+         x="-117.24361"
+         y="-20.918179" />
+      <rect
+         transform="matrix(0.6293204,-0.77714595,0.77714595,0.6293204,0,0)"
+         style="fill:#ffffff;stroke:#ffffff"
+         width="1"
+         height="10"
+         x="-14.782556"
+         y="40.646629" />
+      <rect
+         style="fill:#ffffff;stroke:#ffffff"
+         width="1"
+         height="10"
+         x="98.239525"
+         y="1.7300104"
+         transform="matrix(0.9998477,-0.01745241,0.01745241,0.9998477,0,0)" />
+      <rect
+         transform="matrix(0.6293204,0.77714596,-0.77714596,0.6293204,0,0)"
+         y="-114.78256"
+         x="140.64664"
+         height="10"
+         width="1"
+         style="fill:#ffffff;stroke:#ffffff" />
+      <rect
+         transform="matrix(-0.15643447,0.98768834,-0.98768834,-0.15643447,0,0)"
+         y="-214.41226"
+         x="83.125381"
+         height="10"
+         width="1"
+         style="fill:#ffffff;stroke:#ffffff" />
+	</g>
+	<text style="font-style:normal;font-size:14px;font-family:'DejaVu Sans';text-align:center;text-anchor:middle;fill:#ffffff">
+		<tspan id="Einheit" x="98" y="155">Einheit</tspan>
+	</text>
+    <rect
+       style="fill:#ffe3d0;"
+       width="64"
+       height="16"
+       x="68"
+       y="167" />
+    <text style="font-size:14px;font-family:'DejaVu Sans';text-align:center;text-anchor:middle;fill:#000000;">
+      <tspan id="Wert" x="100" y="180"></tspan>
+    </text>
+</a>
+</svg>

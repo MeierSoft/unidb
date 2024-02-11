@@ -1,0 +1,200 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 6.0.7.3 (Linux)"/>
+	<meta name="author" content="Ralf Meier"/>
+	<meta name="created" content="2020-03-12T17:58:45.413927737"/>
+	<meta name="changedby" content="Ralf Meier"/>
+	<meta name="changed" content="2020-03-12T19:46:07.801417950"/>
+	<style type="text/css">
+		@page { margin: 2cm }
+		p { margin-bottom: 0.25cm; line-height: 115% }
+		h2.cjk { font-family: "Noto Sans CJK SC" }
+		h2.ctl { font-family: "Lohit Devanagari" }
+		a:link { so-language: zxx }
+	</style>
+</head>
+<body lang="de-DE" dir="ltr">
+<div id="Benutzerdefiniert1" dir="ltr">
+	<div id="Benutzerdefiniert1_Head" dir="ltr">
+		<p style="margin-top: 0.42cm; margin-bottom: 0.21cm; line-height: 100%; page-break-after: avoid">
+		<font face="Liberation Sans, sans-serif"><font size="4" style="font-size: 16pt"><b>DH
+		Ribbon</b></font></font></p>
+	</div>
+	<p style="margin-bottom: 0cm; line-height: 100%">Verbindung zum
+	Server herstellen</p>
+	<p style="margin-bottom: 0cm; line-height: 100%">Tags suchen</p>
+	<p style="margin-bottom: 0cm; line-height: 100%">aktuelle Werte
+	abrufen</p>
+	<p style="margin-bottom: 0cm; line-height: 100%">Archivwert abrufen</p>
+	<p style="margin-bottom: 0cm; line-height: 100%">Archivwerte abrufen</p>
+</div>
+<p><br/>
+<br/>
+
+</p>
+<h2 class="western"><a name="__RefHeading___Toc362_3621037825"></a>Verbindung
+zum Server herstellen</h2>
+<p>Bevor Sie Werte abrufen können, müssen Sie sich am DH Server
+anmelden. Über das Symbol</p>
+<p><img src="Excel_Hilfe_html_40503a777cb32ccf.gif" name="Rahmen1" alt="Rahmen1" align="bottom"/>
+
+</p>
+<p>wird der Dialog Verbindungen geöffnet:</p>
+<p><img src="Excel_Hilfe_html_abaee559d9e78e8d.gif" name="Rahmen2" alt="Rahmen2" align="bottom"/>
+</p>
+<p>Auf der linken Seite befindet sich die Liste der bereits
+konfigurierten Verbindungen. Wählen Sie dort den gewünschten Server
+aus und klicken Sie auf verbinden. Ob die Verbindung zum Server
+hergestellt werden konnte, wird Ihnen nach ca. ein bis zwei Sekunden
+angezeigt.</p>
+<p><br/>
+<br/>
+
+</p>
+<h2 class="western"><a name="__RefHeading___Toc364_3621037825"></a>Tags
+suchen</h2>
+<p>In der Praxis hat es sich bewährt, die Tags, mit denen man
+arbeiten möchte, jeweils in eine Zelle zu schreiben. Manchmal kann
+es mühsam sein, die ganzen Pfade und Namen der Tags manuell
+einzutragen, Über den Dialog 
+</p>
+<p><img src="Excel_Hilfe_html_68c2e87a5d3c583.gif" name="Rahmen3" alt="Rahmen3" align="bottom"/>
+</p>
+<p>ist das schon deutlich bequemer. 
+</p>
+<p><img src="Excel_Hilfe_html_bc37ea2f18e203b2.gif" name="Rahmen4" alt="Rahmen4" align="bottom"/>
+</p>
+<p>Im obersten Feld wird der zu suchende Text eingetragen. Hierbei
+dient das % Zeichen als Platzhalter für beliebig viele Zeichen. Über
+den Schalter suchen wird eine Suche in den Pfaden, Tagnamen und den
+Beschreibungen angestoßen. Im Beispiel oben wurde nach den tags
+gesucht, welche den Textteil Ausg im Namen, im Pfad, oder in der
+Beschreibung haben. Es können mehrere Zeilen im Ergebnisfeld
+markiert werden. Am unteren Rand kann ausgewählt werden, ob die
+markierten Zeilen im Tabellenblatt unter- oder nebeneinander
+ausgegeben werden. Der Schalter Auswahl übernehmen überträgt
+schließlich die ausgewählten Tags ins Tabellenblatt.</p>
+<p><img src="Excel_Hilfe_html_7094a16d1f30aaa3.gif" name="Rahmen5" alt="Rahmen5" align="bottom"/>
+</p>
+<p><br/>
+<br/>
+
+</p>
+<h2 class="western"><a name="__RefHeading___Toc366_3621037825"></a>aktuelle
+Werte abrufen</h2>
+<p>Der neueste Wert eines Tags wird über die Funktion aktWert
+abgerufen. Die Funktion verhält sich wie jede andere Funktion in
+Excel auch. Sie erwartet als Parameter den kompletten Tagnamen und
+jeweils eine 1 oder 0 für die Ausgabe der Einheit, des Zeitstempels,
+des Pfades und des kurzen Tagnamens. Zudem erwartet sie eine 0 für
+die waagerechte, oder eine 1 für eine senkrechte Ausgabe des
+Ergebnisses. Das kann man entweder direkt als Formel in eine Zelle
+schreiben, oder man nutzt den bequemen Weg über den Dialog.</p>
+<p><img src="Excel_Hilfe_html_99382b019700e1d1.gif" name="Rahmen6" alt="Rahmen6" align="bottom"/>
+</p>
+<p>Wenn Sie die Bearbeitungszeile in der Abbildung oben etwas genauer
+betrachten, dann fallen Ihnen sicherlich die geschweiften Klammern
+auf. Diese zeigen an, daß es sich hierbei um eine Bereichsformel
+handelt. Das bedeutet, daß eine einzelne Zelle aus dem Bereich, über
+den sich die Formel erstreckt, nicht geändert werden kann. Möchte
+man die Funktion manuell bearbeiten, dann muß die Zelle über die
+Tastenkombination STRG rechts + Umschalttaste + ENTER verlassen
+werden. Ansonsten erhalten Sie eine Fehlermeldung. Um alle
+Bereichsformeln neu berechnen zu lassen, drückt man STRG rechts +
+Umschalttaste + F9.</p>
+<p><br/>
+<br/>
+
+</p>
+<p>Der bequeme Weg über diese Schaltfläche im Ribbon DH:</p>
+<p><img src="Excel_Hilfe_html_b69fb4c03f49d8d3.gif" name="Rahmen7" alt="Rahmen7" align="bottom"/>
+</p>
+<p><img src="Excel_Hilfe_html_32bf38686968eda7.gif" name="Rahmen8" alt="Rahmen8" align="bottom"/>
+</p>
+<p><br/>
+<br/>
+
+</p>
+<h2 class="western"><a name="__RefHeading___Toc368_3621037825"></a>Archivwert
+abrufen</h2>
+<p>Im Gegensatz zur Funktion aktWert, wird mit dieser Funktion nicht
+grundsätzlich der neueste Wert abgerufen. Die Funktion dient dazu,
+den Wert eines Tags zum angegebenen Zeitpunkt auszugeben. Es handelt
+sich hierbei ebenfalls um eine Funktion, welche sich so verhält, wie
+jede andere Funktion in Excel auch. Das Ergebnis wird, wie zuvor
+schon beschrieben, in Form einer Bereichsformel ausgegeben.</p>
+<p><img src="Excel_Hilfe_html_a38831321292b2f7.gif" name="Rahmen9" alt="Rahmen9" align="bottom"/>
+</p>
+<p>Im Archiv befinden sich nicht so viele Werte für einen Tag, daß
+man für jeden beliebigen Zeitpunkt einen tatsächlich archivierten
+Wert ausgeben kann. Daher haben Sie die Wahl, ob Sie den letzten
+archivierten Wert vor dem angegebenen Zeitpunkt, den nächsten Wert
+nach dem angegebenen Zeitpunkt, oder einen interpolierten Wert sehen
+möchten. 
+</p>
+<p>Hier die Ergebnisse für das oben gezeigte Beispiel:</p>
+<p><img src="Excel_Hilfe_html_8a7041d2811789f8.gif" name="Rahmen10" alt="Rahmen10" align="bottom"/>
+</p>
+<p><br/>
+<br/>
+
+</p>
+<p><img src="Excel_Hilfe_html_265aa2e98c6716da.gif" name="Rahmen11" alt="Rahmen11" align="bottom"/>
+</p>
+<p><br/>
+<br/>
+
+</p>
+<p><img src="Excel_Hilfe_html_2cd432d3d902fca9.gif" name="Rahmen12" alt="Rahmen12" align="bottom"/>
+</p>
+<p><br/>
+<br/>
+
+</p>
+<p>Neben den erfassten Werten, liefert das Archiv auch statistische
+Werte, falls der Tag entsprechend konfiguriert ist. Ob Sie nun einen
+erfassten Wert, einen Stunden- oder Tagesmittelwert, einen
+Mindestwert, u.s.w. sehen möchten, wählen Sie über das Feld
+Datentyp aus. Die Option Rohwert zeigt den erfassten Wert.</p>
+<p><img src="Excel_Hilfe_html_8481600310784dd4.gif" name="Rahmen13" alt="Rahmen13" align="bottom"/>
+</p>
+<p><br/>
+<br/>
+
+</p>
+<h2 class="western"><a name="__RefHeading___Toc370_3621037825"></a>Archivwert<u>e</u>
+abrufen</h2>
+<p>Hierbei handelt es sich nicht um eine Excel – Funktion. Über
+den unten dargestellten Dialog läßt sich eine Reihe von
+Archivwerten über einen vorgegebenen Zeitraum abrufen. Excel
+Arbeitsmappen können extrem langsam werden, wenn der Abruf ganzer
+Wertereihen als Excel – Funktion implementiert ist. Daher haben wir
+hier absichtlich auf eine Excel-Funktion verzichtet. Allerdings ist
+es so, daß der unten gezeigte Dialog beim Öffnen danach schaut, ob
+an gleicher Stelle bereits eine Wertereihe abgerufen wurde. Wenn dem
+so ist, werden die Felder des Dialoges mit den vorhandenen Angaben
+vorbelegt.</p>
+<p><img src="Excel_Hilfe_html_8126854c3552e74c.gif" name="Rahmen14" alt="Rahmen14" align="bottom"/>
+</p>
+<p>Die Felder Tagname, von, bis, Typ und Ausgabe wurden weiter oben
+bereits genutzt, b.z.w., sollten keiner Beschreibung bedürften.
+Wirklich neu in diesem Dialog sind die Optionen Unix Zeitstempel, vt
+und vt interpoliert.</p>
+<p>Das Kürzel vt steht für <u><b>V</b></u>alue x <u><b>T</b></u>ime.
+Es handelt sich dabei um den vorherigen Wert, multipliziert mit der
+Zeitdifferenz in Sekunden des Wertes zum vorhergehenden Wert. Beim vt
+interpoliert handelt es sich um den Mittelwert vom vorhergehenden und
+aktuellem Wert, multipliziert mit der Zeitdifferenz  in Sekunden. Das
+Produkt aus Wert und Zeitdifferenz (vt) erleichtert die Berechnung
+von von Summen und Mittelwerten. Eine ausführliche Beschreibung mit
+Beispielen zur Verwendung des vt und des vt interpoliert finden Sie
+im Benutzerhandbuch.<br/>
+Beim Unix Zeitstempel handelt es sich um
+die Anzahl an Sekunden, die seit dem 01.01.1970 00:00:00 (UTC)
+vergangen sind. Damit läßt sich einfacher rechnen, als mit der
+sonst üblichen Angabe eines Zeitpunktes.</p>
+</body>
+</html>

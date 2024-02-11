@@ -1,0 +1,300 @@
+.allgemein {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #3D3846;
+}
+
+.Text_Element {
+	height: 18px;
+}
+
+.Text_Element_fett {
+	font-weight: bold;
+	height: 18px;
+}
+
+.Schalter_Element {
+	border-top-width: 1px;
+	border-top-style: solid;
+	font-size: 11px;
+}
+
+.Schalter_fett_Element {
+	font-weight: bold;
+}
+
+.Text_einfach {
+	font-weight: normal;
+}
+
+.Text_fett {
+	font-weight: bold;
+}
+
+.Tabelle_Zelle {
+	font-size: 12px;
+	font-weight: normal;
+	background-color: #7E63E9;
+}
+
+.Tabelle_Ueberschrift {
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.table {
+	top: 10px;
+	left: 10px;
+	background-color: #E5E5E5;
+}
+
+.Tabellenzeile {
+	font-weight: normal;
+	font-size: 12px;
+	background-color: #E5E5E5;
+}
+
+.Auswahl_Liste_Element {
+	border-width: 1px;
+	font-size: 11px;
+}
+
+.slidecontainer {
+	width: 100%;
+}
+
+.slider {
+	-webkit-appearance: none;
+	width: 100%;
+	height: 18px;
+	background: #FCEDD9;
+	outline: none;
+	opacity: 0.7;
+	-webkit-transition: .2s;
+}
+
+.slider:hover {
+	opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 18px;
+	height: 16px;
+	background: #4CAF50;
+	cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+	width: 16px;
+	height: 16px;
+	background: #4CAF50;
+	cursor: pointer;
+}
+
+.Register {
+	position: absolute;
+	padding: 2px;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.Registerkarte {
+	background-color: #e9e9e9;
+	border-top-right-radius: 4px;
+}
+
+.Registerkarte_Kopf {
+	height: 16px;
+	border-width: 1px;
+	border-style: solid;
+	border-right-width: 5px;
+	border-right-style: groove;
+	border-top-right-radius: 6px;
+	z-index: 3;
+}
+
+.Registerkarte_Kopf_ausgew {
+	background-color: #e9e9e9;
+	border-bottom-style: none;
+}
+
+.Registerkarte_Kopf_abgew {
+	background-color: #c5c5c5;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.senkrecht {
+	ransform-origin: 0 0;
+	rotate: 270deg;
+}
+
+.Inhalt {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.schaltfl_mobil {
+	text-align: center;
+	color: #000;
+	cursor: pointer;
+	line-height: 30px;
+	float: left;
+	width: 100%;
+	height: 30px;
+	font-size: 14px;
+	font-family: arial, helvetica, sans-serif;
+	position: relative;
+	z-index: 100;
+	background-color: #FCEDD9;
+}
+
+.bereich_mobil {
+	position: relative;
+	background-color: #d6d6d6;
+	display: none;
+	z-index: 99;
+	font-size: 12px;
+	font-family: arial, helvetica, sans-serif;
+	border-bottom-width: thin;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #FCEDD9;
+	min-width: 120px;
+	box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
+	z-index: 99;
+	padding-left: 10px;
+}
+
+.gauge-container {
+	width: auto;
+	height: auto;
+	display: block;
+	overflow: hidden;
+	width: 150px;
+	height: 150px;
+}
+
+.gauge-container.two {
+	height: auto;
+	border: 1px solid rgba(255,255,255,0.1);
+}
+
+.gauge-container.two > .gauge > .dial {
+	stroke: #334455;
+	stroke-width: 10;
+}
+
+.gauge-container.two > .gauge > .value {
+	stroke-dasharray: none;
+	stroke-width: 10;
+}
+
+.page-wrapper {
+	margin: auto;
+	width: 98vw;
+	max-width: 100%;
+}
+
+.box-content {
+	padding: 10px;
+	background-color: #EFEFEF;
+}
+
+.textarea {
+	background-color: #FAFAFA;
+	border: #EFEFEF solid 1px;
+	color: #333;
+	width: 95vw;
+}
+
+.richText {
+	margin-bottom: 10px;
+	-webkit-box-shadow: 0 0 20px 0 #999;
+	-moz-box-shadow: 0 0 20px 0 #999;
+	box-shadow: 0 0 20px 0 #999;
+}
+
+.slist {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 795px;
+}
+
+.slist li {
+	border: 1px solid #dfdfdf;
+	background: #f5f5f5;
+}
+
+.slist li.hint {
+	border: 1px solid #ffc49a;
+	background: #feffb4;
+}
+
+.slist li.active {
+	border: 1px solid #ffa5a5;
+	background: #ffe7e7;
+}
+
+.BaumHG {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 14px;
+	background-color: #3D3846;
+}
+
+.allgemein {
+	color: #ffffff;
+}
+
+.Inhalt {
+	color: #000000;
+}
+
+.Inhalt a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.Inhalt a:hover {
+	text-decoration: underline;
+	color: #D0D4D3;
+	font-weight: bold;
+}
+
+.allgemein a:hover {
+	font-weight: bold;
+	color: #D0D4D3;
+	text-decoration: underline;
+}
+
+.allgemein a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.Text_Element {
+	font-size: 12px;
+}
+@media screen and (max-width: 380px) {
+	.schaltfl_mobil {
+		font-size: 100%;
+	}
+	.Text_Element {
+		font-size: 85%;
+	}
+	.Schalter_fett_Element {
+		font-size: 85%;
+	}
+	.Textbox {
+		Bereich_mobi: 100%;
+	}
+}

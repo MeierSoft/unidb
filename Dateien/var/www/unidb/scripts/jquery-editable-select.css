@@ -1,0 +1,5 @@
+input.es-input {padding-right: 20px !important; background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAICAYAAADJEc7MAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAG2YAABzjgAA4DIAAIM2AAB5CAAAxgwAADT6AAAgbL5TJ5gAAABGSURBVHjaYvz//z8DOYCJgUzA0tnZidPK8vJyRpw24pLEpwnuVHRFhDQxMDAwMPz//x+OOzo6/iPz8WFGuocqAAAA//8DAD/sORHYg7kaAAAAAElFTkSuQmCC) right center no-repeat;}
+.es-list {position: absolute; padding: 0; margin: 0; display: none; z-index: 1000; background: #f3f3f3; max-height: 160px; overflow-y: auto;}
+.es-list li {display: block; padding: 5px 5px; margin: 0;}
+.es-list li.selected {background: #EBEAC5;}
+

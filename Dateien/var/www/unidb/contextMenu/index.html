@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="./jquery.contextMenu.css" type="text/css" media="screen">
+<script src="/jquery.min.js"></script>
+<script type="text/javascript" src="./jquery.ui.position.js"></script>
+<script type="text/javascript" src="./jquery.contextMenu.js"></script>
+<script language="javascript">
+$(function(){
+	$.contextMenu({
+		selector: '.context-menu-one', 
+		callback: function(key, options) {
+			oben(key); 
+		},
+		items: {
+			"gruppieren": {"name": "gruppieren", "icon": "edit"},
+			"Gruppierung entfernen": {"name": "Gruppierung_entfernen", "icon": "quit"},
+			"fold1": {
+				"name": "ausrichten", 
+				"items": {
+					"oben": {"name": "oben"},
+					"unten": {"name": "unten"},
+					"rechts": {"name": "rechts"},
+					"links": {"name": "links"}
+					}
+				},
+			}
+	});
+});
+function oben(key) {
+	if (key == "oben") {
+		alert("bla");
+	} else {
+		alert(key);
+	}
+}
+</script>
+
+</head>
+<body>
+<span class="context-menu-one">right click me</span>
+</body>
+</html>
