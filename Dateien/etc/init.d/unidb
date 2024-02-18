@@ -1,0 +1,22 @@
+#!/bin/sh
+### BEGIN INIT INFO
+# Provides:          dh
+# Required-Start:    $remote_fs $syslog mysqld
+# Required-Stop:     $remote_fs $syslog mysqld
+# Default-Start:     2
+# Default-Stop:      2 6
+# Short-Description: unibd starten / stoppen
+# Description:       Startet / stopt die Schnittstellen fuer die unidb.
+### END INIT INFO
+# Author: Ralf Meier
+DESC="Startet / stopt die Schnittstellen fuer die unidb"
+#DAEMON=/opt/unidb/unidb_start.py
+
+case "$1" in
+  start)
+        /opt/unidb/unidb_start.py
+        ;;
+  stop)
+        /opt/unidb/unidb_stop.py
+        ;;
+esac

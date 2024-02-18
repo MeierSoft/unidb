@@ -117,7 +117,7 @@
 	}
 	
 	//Schnittstellen in ein Listenfeld bringen
-	echo "<select style='position: absolute; top: 60px; left: 10px;' id='schnittstellen' name='Schnittstellen' size='7' onclick='markieren(\"schnittstellen\");'>\n";
+	echo "<select style='position: absolute; top: 60px; left: 10px;' id='schnittstellen' name='Schnittstellen' size='7' onchange='markieren(\"schnittstellen\");'>\n";
 	$query="SELECT `Parameter` FROM `Einstellungen` WHERE `Eltern_ID` = ".$Schnittstellen_ID." ORDER BY `Parameter` ASC;";
    $stmt = mysqli_prepare($dbDH, $query);
 	mysqli_stmt_execute($stmt);
@@ -132,7 +132,7 @@
 	}
 	echo "</select>\n";
 	
-	echo "<select style='position: absolute; top: 60px; left: 300px;' id='ausser_Betrieb' name='Ausser_Betrieb' size='7' onclick='markieren(\"ausser_Betrieb\");'>\n";
+	echo "<select style='position: absolute; top: 60px; left: 300px;' id='ausser_Betrieb' name='Ausser_Betrieb' size='7' onchange='markieren(\"ausser_Betrieb\");'>\n";
 	$query="SELECT `Parameter` FROM `Einstellungen` WHERE `Eltern_ID` = ".$Ausser_Betrieb_ID." ORDER BY `Parameter` ASC;";
    $stmt = mysqli_prepare($dbDH, $query);
 	mysqli_stmt_execute($stmt);

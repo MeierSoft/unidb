@@ -93,7 +93,7 @@ function laden(Typ) {
 	$Kollektiv_ID = $line['Einstellung_ID'];
 	mysqli_stmt_close($stmt);
 	//Kollektivmitglieder in ein Listenfeld bringen
-	echo "<select style='position: absolute; top: 70px; left: 10px;' id='kollektivmitglieder' name='Kollektivmitglieder' size='7' onclick='laden(\"Server\");'>\n";
+	echo "<select style='position: absolute; top: 70px; left: 10px;' id='kollektivmitglieder' name='Kollektivmitglieder' size='7' onchange='laden(\"Server\");'>\n";
 	$query="SELECT `Parameter` FROM `Einstellungen` WHERE `Eltern_ID` = ".$Kollektiv_ID.";";
    $stmt = mysqli_prepare($dbDH, $query);
 	mysqli_stmt_execute($stmt);
@@ -115,7 +115,7 @@ function laden(Typ) {
   	$line = mysqli_fetch_array($result, MYSQLI_ASSOC);
 	$Schnittstellenrechner_ID = $line['Einstellung_ID'];
 	mysqli_stmt_close($stmt);
-	echo "<select style='position: absolute; top: 70px; left: 200px;' id='schnittstellenrechner' name='Schnittstellenrechner' size='7' onclick='laden(\"Schnittstelle\");'>\n";
+	echo "<select style='position: absolute; top: 70px; left: 200px;' id='schnittstellenrechner' name='Schnittstellenrechner' size='7' onchange='laden(\"Schnittstelle\");'>\n";
 	if($Schnittstellenrechner_ID != NULL) {
 		//Kollektivmitglieder in ein Listenfeld bringen
 		$query="SELECT `Parameter` FROM `Einstellungen` WHERE `Eltern_ID` = ".$Schnittstellenrechner_ID.";";

@@ -76,7 +76,7 @@
 	$Kollektiv_ID = $line['Einstellung_ID'];
 	mysqli_stmt_close($stmt);
 	//Kollektivmitglieder in ein Listenfeld bringen
-	echo "<select style='position: absolute; top: 70px; left: 10px;' id='kollektivmitglieder' name='Kollektivmitglieder' size='7' onclick='document.getElementById(\"phpform\").submit();'>\n";
+	echo "<select style='position: absolute; top: 70px; left: 10px;' id='kollektivmitglieder' name='Kollektivmitglieder' size='7' onchange='document.getElementById(\"phpform\").submit();'>\n";
 	$query="SELECT `Parameter` FROM `Einstellungen` WHERE `Eltern_ID` = ".$Kollektiv_ID.";";
    $stmt = mysqli_prepare($db, $query);
 	mysqli_stmt_execute($stmt);

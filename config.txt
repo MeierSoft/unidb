@@ -1,0 +1,86 @@
+# These settings are read by the install_cli program.
+# Lines with comments are marked with a # character at the beginning of the line.
+# Each setting is on a separate line and begins with the name of a variable, followed by a colon and finally the value.
+
+
+# Folders to copy the files in.
+Folder_Python_Scripts:/opt
+Folder_Archives:/var/lib/DH
+Folder_Webserver_Dokument_Root:/var/www/html
+
+
+# DH Interfaces
+# 1 = The DH interfaces will start as a service at startup of the computer.
+# 0 = No service for an automatic start of the interfaces.
+Automatic_Start_Interfaces:1
+
+
+# Example data
+# If this is the first time you install the DH & unidb, then it is recomented to
+# install the example data to have a working DH and unidb at the first run.
+# In case, you have a backup of a former installation and you want to reuse your data,
+# then you should not copy the example data.
+# 1 = install exampla data.
+# 0 = Do not install example data.
+Install_Example_Data:1
+
+
+# Database user
+# Please enter reasonable passwords instead of the default values!
+
+# User with the same rights as root
+User_Root_Rights:mariadb_admin
+Password_Root_Rights:unidb
+
+# User with read permission on the DH:
+User_Read_DH:DH_readonly
+Password_Read_DH:
+
+# User with read and write permissions on the DH:
+User_Write_DH:DH_write
+Password_Write_DH:nurDH
+
+# User with read and write permissions on the unidb:
+User_Write_unidb:unidb
+Password_Write_unidb:nurunidb
+
+# There is one user neccessary to create new user accounts on MariaDB.
+# This user can nothing but create user.
+User_useradmin:useradmin
+Password_useradmin:uadminpw
+
+
+# Mail configuration
+#The address to which a message is sent when someone has requested a new user account.
+eMail_admin_address:Info@YourDomain.com
+
+# The address to which an email will be sent when someone replies to your email.
+eMail_ReplyTo:Info@YourDomain.com
+
+eMail_CharSet:UTF-8
+
+# The domain to which your email account belongs.
+eMail_Host:YourDomain.com
+
+# User & password of the email account. This username has nothing to do with the unidb or the DH.
+eMail_Username:user@YourDomain.com
+eMail_Password:Your password
+
+# This is the port for outgoing emails. If you are not sure what goes here,
+# then it is worth taking a look at the configuration of your email program.
+eMail_Port:25
+
+# This address appears to the recipient of an email from you as the sender of the email.
+eMail_From:Info@YourDomain.com
+
+# If you are not sure what goes here, then it is worth taking a look at the configuration of your email program.
+eMail_SMTPAuth:true
+eMail_SMTPSec:tls
+
+# The subject line of the email sent to you when a new user account is created.
+eMail_Subject:Neuer unidb Benutzer
+
+# If users clicks the "Forgot password" link on the login page, they will be sent a link via email
+# that allows them to set a new password. The address of the unidb belongs in this field.
+eMail_urlPasswordCode:https://YourDomain.com/unidb
+
