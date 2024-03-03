@@ -1,0 +1,13 @@
+USE unidb;
+UPDATE `Einstellungen` SET `Wert`='Info@IhreDomain.com' WHERE `Parameter`='addAddress' AND `Eltern_ID` = 31;
+UPDATE `Einstellungen` SET `Wert`='Info@IhreDomain.com' WHERE `Parameter`='	addReplyTo' AND `Eltern_ID` = 31;
+UPDATE `Einstellungen` SET `Wert`='UTF-8' WHERE `Parameter`='	CharSet' AND `Eltern_ID` = 31;
+UPDATE `Einstellungen` SET `Wert`='IhreDomain.com' WHERE `Parameter`='	Host' AND `Eltern_ID` = 31;
+UPDATE `Einstellungen` SET `Wert`='' WHERE `Parameter`='	Password' AND `Eltern_ID` = 31;
+UPDATE `Einstellungen` SET `Wert`='25' WHERE `Parameter`='	Port' AND `Eltern_ID` = 31;
+UPDATE `Einstellungen` SET `Wert`='Info@IhreDomain.com' WHERE `Parameter`='	SetFrom' AND `Eltern_ID` = 31;
+UPDATE `Einstellungen` SET `Wert`='true' WHERE `Parameter`='	SMTPAuth' AND `Eltern_ID` = 31;
+UPDATE `Einstellungen` SET `Wert`='tls' WHERE `Parameter`='	SMTPSecure' AND `Eltern_ID` = 31;
+UPDATE `Einstellungen` SET `Wert`='Neuer unidb Benutzer' WHERE `Parameter`='	Subject' AND `Eltern_ID` = 31;
+UPDATE `Einstellungen` SET `Wert`='https://IhreDomain.com/unidb' WHERE `Parameter`='	url_passwortcode' AND `Eltern_ID` = 31;
+UPDATE `Einstellungen` SET `Wert`='' WHERE `Parameter`='	Username' AND `Eltern_ID` = 31;

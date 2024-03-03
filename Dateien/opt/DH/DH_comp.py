@@ -308,12 +308,12 @@ while Meldung != "abschalten":
     #von allen Tags, die archive = 0 haben, nur den neuesten Wert in der Tabelle akt stehen lassen
     i = 0
     while i < len(narch):
-        db.query("SELECT `id` FROM akt WHERE `Point_ID` = " + str(narch[i]['Point_ID']) + " ORDER BY `Timestamp` DESC LIMIT 1;")
+        db.query("SELECT `Timestamp` FROM akt WHERE `Point_ID` = " + str(narch[i]['Point_ID']) + " ORDER BY `Timestamp` DESC LIMIT 1;")
         Ergebnis = db.store_result()
         akt_Werte = Ergebnis.fetch_row(maxrows=0, how=1)
         try:
             db.query("START TRANSACTION;")
-            db.query("DELETE FROM akt WHERE `Point_ID` = " + str(narch[i]['Point_ID']) + " AND `id` <> " + str(akt_Werte[0]['id']) + ";")
+            db.query("DELETE FROM akt WHERE `Point_ID` = " + str(narch[i]['Point_ID']) + " AND `Timestamp` < '" + str(akt_Werte[0]['Timestamp']) + "';")
             db.query("COMMIT;")
         except:
             pass
